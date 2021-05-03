@@ -1,0 +1,9 @@
+.obnc
+*~
+*.bak
+*.Bak
+# Ignore Executables
+HelloWorld
+HelloFriend
+HiFibo
+

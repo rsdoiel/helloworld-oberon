@@ -1,0 +1,19 @@
+Hello World
+===========
+
+This is a minimalist setup for compiling some Unix
+classics implemented in Oberon-7. It includes a
+Makefile where the expected Oberon-7 compiler is 
+OBNC.
+
+Simple Makefile
+---------------
+
+```
+make
+./HelloWorld
+./HelloFriend
+./HiFibo
+make clean
+```
+
