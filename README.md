@@ -41,7 +41,7 @@ test: $(PROG_NAMES)
 
 clean: .FORCE
 	@if [ -d .obnc ]; then rm -fR .obnc; fi
-	for FNAME in $(PROG_NAMES); do if [ -f $$FNAME ]; then rm $$FNAME; fi; done
+	@for FNAME in $(PROG_NAMES); do if [ -f $$FNAME ]; then rm $$FNAME; fi; done
 
 install: $(PROG_NAMES)
 	@if [ ! -d $(prefix)/bin ]; then mkdir -p $(prefix)/bin; fi
